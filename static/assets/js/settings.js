@@ -259,7 +259,7 @@ function AB() {
   }
 
   if (!inFrame && !navigator.userAgent.includes("Firefox")) {
-    const popup = open("about:blank", "_blank");
+    const popup = open("tomballisd.net", "tomballisd.net");
     if (!popup || popup.closed) {
       alert("Window blocked. Please allow popups for this site.");
     } else {
